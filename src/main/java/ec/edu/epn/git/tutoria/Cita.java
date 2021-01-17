@@ -4,7 +4,6 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Cita {
-
     public String codigo;
     public Cita (){
         this.codigo = "223";
@@ -19,7 +18,7 @@ public class Cita {
         return(materia.equalsIgnoreCase("ICR222"));
     }
 
-    public boolean registroTutor(String materia, String nombre) {
+    public boolean RegistroTutor(String materia, String nombre) {
         String tutor;
         Curso cu = new Curso();
         tutor = cu.consultaTutor(materia);
@@ -48,7 +47,7 @@ public class Cita {
         return valor;
     }
 
-    public boolean existeCita(String id) {
+    public boolean ExisteCita(String id) {
         /*if(id.equalsIgnoreCase(codigo)){
             return true;
         }else{
@@ -56,4 +55,5 @@ public class Cita {
         }*/
         return (id.equalsIgnoreCase(codigo));
     }
+
 }
