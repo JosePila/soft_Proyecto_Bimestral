@@ -64,7 +64,8 @@ public class Test {
         System.out.println("1)Rendir Examen");
         System.out.println("\n2)Agendar una tutoria");
 
-        return Integer.parseInt(teclado.nextLine());
+        return 1;
+       // "Integer.parseInt(teclado.nextLine());"
     }
 
     public static boolean usuarioRegistrado()

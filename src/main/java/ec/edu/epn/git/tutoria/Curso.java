@@ -31,7 +31,8 @@ public class Curso {
         System.out.println("1) Estudios Sociales");
         System.out.println("Opción:  ");
 
-        salida=teclado.nextLine();
+        salida="1";
+    //teclado.nextLine();
         switch (salida)
         {
             case ("1"):
